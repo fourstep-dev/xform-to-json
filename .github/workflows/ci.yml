@@ -50,3 +50,4 @@ jobs:
         fi
         npm install -g npm@6.14
         npm install enketo-transformer
+        node .
