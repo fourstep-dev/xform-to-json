@@ -21,8 +21,8 @@ fs.readdirSync(`./${config.inputDir}`, {
   return file.name.match(/.xml$/);
 }).forEach(file => {
   const filename = file.name.substring(0, file.name.length - 4);
-  const inputPath = `/user/src/app/${config.inputDir}/${file.name}`;
-  const outputPath = `/user/src/app/${config.outputDir}/${filename}.json`;
+  const inputPath = `${config.inputDir}/${file.name}`;
+  const outputPath = `${config.outputDir}/${filename}.json`;
   console.log(`Reading "${inputPath}" ...`);
   transformer.transform({
     xform: fs.readFileSync(inputPath),
