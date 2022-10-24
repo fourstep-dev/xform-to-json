@@ -26,7 +26,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+        cache: 'npm'
 
     - name: Setup node and its dependencies
       shell: bash -l {0}
@@ -57,3 +61,11 @@ jobs:
         node .
         pwd
         ls -lha
+    
+    - name: Commit
+      run: |
+        git config --global user.name 'asiripanich'
+        git config --global user.email '17020181+asiripanich@users.noreply.github.com'
+        git add data-json
+        git commit --no-verify -m 'Update data-json' || echo "No changes to commit"
+        git push || echo "No changes to commit"
