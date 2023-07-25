@@ -60,8 +60,8 @@ jobs:
     
     - name: Commit
       run: |
-        git config --global user.name 'asiripanich'
-        git config --global user.email '17020181+asiripanich@users.noreply.github.com'
+        git config --global user.name 'AlirezaRa94'
+        git config --global user.email 'alirezaraei17@gmail.com'
         git add data-json
         git commit --no-verify -m 'Update data-json' || echo "No changes to commit"
         git push || echo "No changes to commit"
