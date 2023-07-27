@@ -1,334 +1,173 @@
 <?xml version="1.0"?>
 <h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <h:head>
-    <h:title>time-use-survey-form</h:title>
+    <h:title>Time-use Survey Form</h:title>
     <model odk:xforms-version="1.0.0">
       <itext>
         <translation default="true()" lang="English (en)">
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses:label">
             <value>Time-use questions</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_date:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_date:label">
             <value>Start Date</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_time:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_time:label">
             <value>Start Time</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_date:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_date:label">
             <value>End Date</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_time:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_time:label">
             <value>End Time</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type:label">
             <value>Activity Type:</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type:hint">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type:hint">
             <value>In case of multi-tasking, you can select multiple activities.</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/personal_care:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/personal_care:label">
             <value>Personal Care Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/employment_and_educational:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/employment_and_educational:label">
             <value>Employment-Related and Educational Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/maintenance:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/maintenance:label">
             <value>Maintenance Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/recreation_and_leisure:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/recreation_and_leisure:label">
             <value>Recreation and Leisure Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/voluntary_work_and_care:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/voluntary_work_and_care:label">
             <value>Voluntary Work and Care Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/other:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/other:label">
             <value>Other...</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care:label">
             <value>Personal Care Activities:</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/sleeping:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/sleeping:label">
             <value>Sleeping</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/resting_and_relaxing:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/resting_and_relaxing:label">
             <value>Resting and Relaxing</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/eating_or_drinking:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/eating_or_drinking:label">
             <value>Eating or Drinking</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/doing_sport:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/doing_sport:label">
             <value>Doing Sport</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/appointments:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/appointments:label">
             <value>Appointments</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/personal_care_i_e__wash__dress__grooming:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/personal_care_i_e__wash__dress__grooming:label">
             <value>Personal Care i.e. Wash, Dress (Grooming (Self))</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational:label">
             <value>Employment-Related and Educational Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/working_at_main_job:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational/working_at_main_job:label">
             <value>Working at Main Job</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/working_at_other_job:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational/working_at_other_job:label">
             <value>Working at Other Job</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/studying_at_an_educational_institute:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational/studying_at_an_educational_institute:label">
             <value>Studying at An Educational Institute i.e. University, Online Learning Platforms</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/checking_emails:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational/checking_emails:label">
             <value>Checking Emails</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance:label">
             <value>Maintenance Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/preparing_meals_or_snacks:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/preparing_meals_or_snacks:label">
             <value>Preparing Meals or Snacks</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/cleaning_and_tidying:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/cleaning_and_tidying:label">
             <value>Cleaning and Tidying</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/doing_laundry:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/doing_laundry:label">
             <value>Doing Laundry</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/grocery_shopping:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/grocery_shopping:label">
             <value>Grocery Shopping</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/online_grocery_shopping:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/online_grocery_shopping:label">
             <value>Online Grocery Shopping</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/repairs_and_gardening:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/repairs_and_gardening:label">
             <value>Repairs and Gardening</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/paying_household_bills:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/paying_household_bills:label">
             <value>Paying Household Bills</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure:label">
             <value>Recreation and Leisure Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/watching_tv:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/watching_tv:label">
             <value>Watching TV (Movie, News, Online Like Netflix, ...)</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/listening_to_radio__podcasts__music:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/listening_to_radio__podcasts__music:label">
             <value>Listening to Radio, Podcasts, Music</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/playing_video_games:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/playing_video_games:label">
             <value>Playing Video Games</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/non_grocery_shopping:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/non_grocery_shopping:label">
             <value>Non-grocery Shopping</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/online_non_grocery_shopping:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/online_non_grocery_shopping:label">
             <value>Online Non-grocery Shopping</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/spending_time_with_family_or_friends:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/spending_time_with_family_or_friends:label">
             <value>Spending Time With Family/Friends</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/contact_friends_or_family_on_a_call:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/contact_friends_or_family_on_a_call:label">
             <value>Contact Friends/Family on a Voice Call or Video Call</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/reading_books:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/reading_books:label">
             <value>Reading Books</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/spending_time_on_social_media:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/spending_time_on_social_media:label">
             <value>Spending Time on Social Media (Instagram, YouTube, ...)</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/eating_out:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/eating_out:label">
             <value>Eating Out</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care:label">
             <value>Voluntary Work and Care Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/caring_for_own_children:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/caring_for_own_children:label">
             <value>Caring for Own Children</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/caring_for_other_children:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/caring_for_other_children:label">
             <value>Caring for Other Children</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/caring_for_adults:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/caring_for_adults:label">
             <value>Caring for Adults</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/pet_care_activities:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/pet_care_activities:label">
             <value>Pet Care Activities</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/attending_religious_services:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/attending_religious_services:label">
             <value>Attending Religious Services</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/other_voluntary_works:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/other_voluntary_works:label">
             <value>Other Voluntary Works</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/other:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/other:label">
             <value>Other:</value>
           </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/other:hint">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/other:hint">
             <value>If your activity type is not included within the provided options, please enter it in the box below.</value>
-          </text>
-        </translation>
-        <translation lang="Spanish (es)">
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses:label">
-            <value>Preguntas sobre el uso del tiempo</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_date:label">
-            <value>Fecha</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_time:label">
-            <value>Hora de inicio</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_date:label">
-            <value>Fecha</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_time:label">
-            <value>Hora de finalización</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type:label">
-            <value>Tipo de actividad:</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type:hint">
-            <value>En caso de multitarea, puede seleccionar varias actividades.</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/personal_care:label">
-            <value>Actividades de cuidado personal</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/employment_and_educational:label">
-            <value>Actividades relacionadas con el empleo y la educación</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/maintenance:label">
-            <value>Actividades domesticas</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/recreation_and_leisure:label">
-            <value>Recreación y ocio</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/voluntary_work_and_care:label">
-            <value>Trabajo voluntario y actividades de cuidado</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/other:label">
-            <value>Otro...</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care:label">
-            <value>Actividades de cuidado personal:</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/sleeping:label">
-            <value>Durmiendo</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/resting_and_relaxing:label">
-            <value>Descansando y relajándose</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/eating_or_drinking:label">
-            <value>Comer o beber</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/doing_sport:label">
-            <value>Haciendo deporte</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/appointments:label">
-            <value>Equipo</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/personal_care_i_e__wash__dress__grooming:label">
-            <value>Cuidado personal, es decir, lavarse, vestirse (asearse (uno mismo))</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational:label">
-            <value>Actividades relacionadas con el empleo y la educación</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/working_at_main_job:label">
-            <value>Trabajando en trabajo principal</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/working_at_other_job:label">
-            <value>Trabajando en otro trabajo</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/studying_at_an_educational_institute:label">
-            <value>Estudiar en un instituto educativo, es decir, universidades, plataformas de aprendizaje en línea</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance:label">
-            <value>Actividades domesticas</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/preparing_meals_or_snacks:label">
-            <value>Preparar comidas o meriendas</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/cleaning_and_tidying:label">
-            <value>Limpieza y orden</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/doing_laundry:label">
-            <value>Lavando</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/grocery_shopping:label">
-            <value>Compras de comestibles</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/repairs_and_gardening:label">
-            <value>Reparaciones y jardinería</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/paying_household_bills:label">
-            <value>Pagar las facturas del hogar</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure:label">
-            <value>Recreación y ocio</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/watching_tv:label">
-            <value>Ver televisión (películas, noticias, en línea como Netflix, ...)</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/listening_to_radio__podcasts__music:label">
-            <value>Escuchar radio, podcasts, música.</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/playing_video_games:label">
-            <value>Jugando videojuegos</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/non_grocery_shopping:label">
-            <value>Compras no comestibles</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/spending_time_with_family_or_friends:label">
-            <value>Pasar tiempo con la familia/amigos</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/contact_friends_or_family_on_a_call:label">
-            <value>Póngase en contacto con amigos/familiares en una llamada de voz o videollamada</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/reading_books:label">
-            <value>Libros de lectura</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care:label">
-            <value>Trabajo voluntario y actividades de cuidado</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/caring_for_own_children:label">
-            <value>Cuidar de los propios hijos</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/caring_for_other_children:label">
-            <value>Cuidando a otros niños</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/caring_for_adults:label">
-            <value>Cuidando a los adultos</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/pet_care_activities:label">
-            <value>Actividades de cuidado de mascotas</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/attending_religious_services:label">
-            <value>Asistir a servicios religiosos</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/other_voluntary_works:label">
-            <value>Otras obras de voluntariado</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/other:label">
-            <value>Otro:</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/other:hint">
-            <value>Si su tipo de actividad no está incluido dentro de las opciones proporcionadas, introdúzcalo en el cuadro a continuación.</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/checking_emails:label">
-            <value>-</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/online_grocery_shopping:label">
-            <value>-</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/online_non_grocery_shopping:label">
-            <value>-</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/spending_time_on_social_media:label">
-            <value>-</value>
-          </text>
-          <text id="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/eating_out:label">
-            <value>-</value>
           </text>
         </translation>
       </itext>
       <instance>
-        <a3YfGAEbGhKfBLvtzPSCpm id="time_use_survey_form_v9_1">
+        <aHAaRCnBScPH7EJTYjjrj4 id="time_use_survey_form_v9_1">
           <start/>
           <end/>
           <user_responses>
@@ -347,218 +186,218 @@
           <meta>
             <instanceID/>
           </meta>
-        </a3YfGAEbGhKfBLvtzPSCpm>
+        </aHAaRCnBScPH7EJTYjjrj4>
       </instance>
-      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/a3YfGAEbGhKfBLvtzPSCpm/start" type="dateTime"/>
-      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/a3YfGAEbGhKfBLvtzPSCpm/end" type="dateTime"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses" required="false()"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_date" required="true()" type="date"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_time" required="true()" type="time"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_date" required="true()" type="date"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_time" required="true()" type="time"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type" required="true()" type="string"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care" relevant="selected( /a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type , 'personal_care')" required="true()" type="string"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational" relevant="selected( /a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type , 'employment_and_educational')" required="true()" type="string"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance" relevant="selected( /a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type , 'maintenance')" required="true()" type="string"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure" relevant="selected( /a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type , 'recreation_and_leisure')" required="true()" type="string"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care" relevant="selected( /a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type , 'voluntary_work_and_care')" required="true()" type="string"/>
-      <bind nodeset="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/other" relevant="selected( /a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type , 'other')" required="true()" type="string"/>
-      <bind jr:preload="uid" nodeset="/a3YfGAEbGhKfBLvtzPSCpm/meta/instanceID" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/aHAaRCnBScPH7EJTYjjrj4/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/aHAaRCnBScPH7EJTYjjrj4/end" type="dateTime"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses" required="false()"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_date" required="true()" type="date"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_time" required="true()" type="time"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_date" required="true()" type="date"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_time" required="true()" type="time"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type" required="true()" type="string"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care" relevant="selected( /aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type , 'personal_care')" required="true()" type="string"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational" relevant="selected( /aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type , 'employment_and_educational')" required="true()" type="string"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance" relevant="selected( /aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type , 'maintenance')" required="true()" type="string"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure" relevant="selected( /aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type , 'recreation_and_leisure')" required="true()" type="string"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care" relevant="selected( /aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type , 'voluntary_work_and_care')" required="true()" type="string"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/other" relevant="selected( /aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type , 'other')" required="true()" type="string"/>
+      <bind jr:preload="uid" nodeset="/aHAaRCnBScPH7EJTYjjrj4/meta/instanceID" readonly="true()" type="string"/>
     </model>
   </h:head>
   <h:body class="pages">
-    <group appearance="field-list" ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses">
-      <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses:label')"/>
-      <input ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_date">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_date:label')"/>
+    <group appearance="field-list" ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses">
+      <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses:label')"/>
+      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_date">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_date:label')"/>
       </input>
-      <input ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_time">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/start_time:label')"/>
+      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_time">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_time:label')"/>
       </input>
-      <input ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_date">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_date:label')"/>
+      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_date">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_date:label')"/>
       </input>
-      <input ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_time">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/end_time:label')"/>
+      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_time">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_time:label')"/>
       </input>
-      <select ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type:label')"/>
-        <hint ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type:hint')"/>
+      <select ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type:label')"/>
+        <hint ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type:hint')"/>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/personal_care:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/personal_care:label')"/>
           <value>personal_care</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/employment_and_educational:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/employment_and_educational:label')"/>
           <value>employment_and_educational</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/maintenance:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/maintenance:label')"/>
           <value>maintenance</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/recreation_and_leisure:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/recreation_and_leisure:label')"/>
           <value>recreation_and_leisure</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/voluntary_work_and_care:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/voluntary_work_and_care:label')"/>
           <value>voluntary_work_and_care</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/activity_type/other:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type/other:label')"/>
           <value>other</value>
         </item>
       </select>
-      <select ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care:label')"/>
+      <select ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care:label')"/>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/sleeping:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/sleeping:label')"/>
           <value>sleeping</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/resting_and_relaxing:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/resting_and_relaxing:label')"/>
           <value>resting_and_relaxing</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/eating_or_drinking:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/eating_or_drinking:label')"/>
           <value>eating_or_drinking</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/doing_sport:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/doing_sport:label')"/>
           <value>doing_sport</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/appointments:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/appointments:label')"/>
           <value>appointments</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/personal_care/personal_care_i_e__wash__dress__grooming:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care/personal_care_i_e__wash__dress__grooming:label')"/>
           <value>personal_care_i_e__wash__dress__grooming</value>
         </item>
       </select>
-      <select ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational:label')"/>
+      <select ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational:label')"/>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/working_at_main_job:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational/working_at_main_job:label')"/>
           <value>working_at_main_job</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/working_at_other_job:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational/working_at_other_job:label')"/>
           <value>working_at_other_job</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/studying_at_an_educational_institute:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational/studying_at_an_educational_institute:label')"/>
           <value>studying_at_an_educational_institute</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/employment_and_educational/checking_emails:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational/checking_emails:label')"/>
           <value>checking_emails</value>
         </item>
       </select>
-      <select ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance:label')"/>
+      <select ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance:label')"/>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/preparing_meals_or_snacks:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/preparing_meals_or_snacks:label')"/>
           <value>preparing_meals_or_snacks</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/cleaning_and_tidying:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/cleaning_and_tidying:label')"/>
           <value>cleaning_and_tidying</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/doing_laundry:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/doing_laundry:label')"/>
           <value>doing_laundry</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/grocery_shopping:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/grocery_shopping:label')"/>
           <value>grocery_shopping</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/online_grocery_shopping:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/online_grocery_shopping:label')"/>
           <value>online_grocery_shopping</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/repairs_and_gardening:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/repairs_and_gardening:label')"/>
           <value>repairs_and_gardening</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/maintenance/paying_household_bills:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/maintenance/paying_household_bills:label')"/>
           <value>paying_household_bills</value>
         </item>
       </select>
-      <select ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure:label')"/>
+      <select ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure:label')"/>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/watching_tv:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/watching_tv:label')"/>
           <value>watching_tv</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/listening_to_radio__podcasts__music:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/listening_to_radio__podcasts__music:label')"/>
           <value>listening_to_radio__podcasts__music</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/playing_video_games:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/playing_video_games:label')"/>
           <value>playing_video_games</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/non_grocery_shopping:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/non_grocery_shopping:label')"/>
           <value>non_grocery_shopping</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/online_non_grocery_shopping:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/online_non_grocery_shopping:label')"/>
           <value>online_non_grocery_shopping</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/spending_time_with_family_or_friends:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/spending_time_with_family_or_friends:label')"/>
           <value>spending_time_with_family_or_friends</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/contact_friends_or_family_on_a_call:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/contact_friends_or_family_on_a_call:label')"/>
           <value>contact_friends_or_family_on_a_call</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/reading_books:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/reading_books:label')"/>
           <value>reading_books</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/spending_time_on_social_media:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/spending_time_on_social_media:label')"/>
           <value>spending_time_on_social_media</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/recreation_and_leisure/eating_out:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/recreation_and_leisure/eating_out:label')"/>
           <value>eating_out</value>
         </item>
       </select>
-      <select ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care:label')"/>
+      <select ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care:label')"/>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/caring_for_own_children:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/caring_for_own_children:label')"/>
           <value>caring_for_own_children</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/caring_for_other_children:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/caring_for_other_children:label')"/>
           <value>caring_for_other_children</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/caring_for_adults:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/caring_for_adults:label')"/>
           <value>caring_for_adults</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/pet_care_activities:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/pet_care_activities:label')"/>
           <value>pet_care_activities</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/attending_religious_services:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/attending_religious_services:label')"/>
           <value>attending_religious_services</value>
         </item>
         <item>
-          <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/voluntary_work_and_care/other_voluntary_works:label')"/>
+          <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/voluntary_work_and_care/other_voluntary_works:label')"/>
           <value>other_voluntary_works</value>
         </item>
       </select>
-      <input ref="/a3YfGAEbGhKfBLvtzPSCpm/user_responses/other">
-        <label ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/other:label')"/>
-        <hint ref="jr:itext('/a3YfGAEbGhKfBLvtzPSCpm/user_responses/other:hint')"/>
+      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/other">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/other:label')"/>
+        <hint ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/other:hint')"/>
       </input>
     </group>
   </h:body>
