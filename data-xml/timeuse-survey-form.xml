@@ -8,16 +8,16 @@
           <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses:label">
             <value>Time-use questions</value>
           </text>
-          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_date:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/Start_date:label">
             <value>Start Date</value>
           </text>
-          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_time:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/Start_time:label">
             <value>Start Time</value>
           </text>
-          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_date:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/End_date:label">
             <value>End Date</value>
           </text>
-          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_time:label">
+          <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/End_time:label">
             <value>End Time</value>
           </text>
           <text id="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type:label">
@@ -171,10 +171,10 @@
           <start/>
           <end/>
           <user_responses>
-            <start_date/>
-            <start_time/>
-            <end_date/>
-            <end_time/>
+            <Start_date/>
+            <Start_time/>
+            <End_date/>
+            <End_time/>
             <activity_type/>
             <personal_care/>
             <employment_and_educational/>
@@ -191,10 +191,10 @@
       <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/aHAaRCnBScPH7EJTYjjrj4/start" type="dateTime"/>
       <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/aHAaRCnBScPH7EJTYjjrj4/end" type="dateTime"/>
       <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses" required="false()"/>
-      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_date" required="true()" type="date"/>
-      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_time" required="true()" type="time"/>
-      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_date" required="true()" type="date"/>
-      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_time" required="true()" type="time"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/Start_date" required="true()" type="date"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/Start_time" required="true()" type="time"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/End_date" required="true()" type="date"/>
+      <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/End_time" required="true()" type="time"/>
       <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type" required="true()" type="string"/>
       <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/personal_care" relevant="selected( /aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type , 'personal_care')" required="true()" type="string"/>
       <bind nodeset="/aHAaRCnBScPH7EJTYjjrj4/user_responses/employment_and_educational" relevant="selected( /aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type , 'employment_and_educational')" required="true()" type="string"/>
@@ -208,17 +208,17 @@
   <h:body class="pages">
     <group appearance="field-list" ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses">
       <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses:label')"/>
-      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_date">
-        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_date:label')"/>
+      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/Start_date">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/Start_date:label')"/>
       </input>
-      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_time">
-        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/start_time:label')"/>
+      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/Start_time">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/Start_time:label')"/>
       </input>
-      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_date">
-        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_date:label')"/>
+      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/End_date">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/End_date:label')"/>
       </input>
-      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_time">
-        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/end_time:label')"/>
+      <input ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/End_time">
+        <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/End_time:label')"/>
       </input>
       <select ref="/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type">
         <label ref="jr:itext('/aHAaRCnBScPH7EJTYjjrj4/user_responses/activity_type:label')"/>
