@@ -16,9 +16,9 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-18.04]
+        os: [ubuntu-latest]
         include:
-        - os: ubuntu-18.04
+        - os: ubuntu-latest
           PLATFORM: Linux-x86_64
         # - os: ubuntu-latest
         #   PLATFORM: Linux-x86_64
@@ -32,8 +32,8 @@ jobs:
       shell: bash -l {0}
       run:  |
         export NVM_VERSION=0.39.0
-        export NODE_VERSION=16.15.0
-        export NPM_VERSION=6.14.15
+        export NODE_VERSION=18.17.0
+        export NPM_VERSION=8.5.5
         export NVM_DIR="$HOME/.nvm"
         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v$NVM_VERSION/install.sh | bash
         echo "Setting up the variables to run nvm"
@@ -50,6 +50,7 @@ jobs:
         fi
         npm install -g npm@6.14
         npm install enketo-transformer
+        npm install libxslt
 
     - name: Run the transformer script
       shell: bash -l {0}
@@ -60,8 +61,8 @@ jobs:
     
     - name: Commit
       run: |
-        git config --global user.name 'asiripanich'
-        git config --global user.email '17020181+asiripanich@users.noreply.github.com'
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
         git add data-json
         git commit --no-verify -m 'Update data-json' || echo "No changes to commit"
         git push || echo "No changes to commit"
