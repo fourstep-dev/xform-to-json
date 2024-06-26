@@ -4,33 +4,45 @@
     <h:title>Trip Time Use</h:title>
     <model odk:xforms-version="1.0.0">
       <instance>
-        <aLZkiU4mdvBP5dEyMQjmu6 id="aLZkiU4mdvBP5dEyMQjmu6">
+        <akemExF7KUNCKeA8aQddrh id="akemExF7KUNCKeA8aQddrh">
           <start/>
           <end/>
           <social_media/>
           <duration_social_media/>
+          <checking_p_email/>
+          <duration_checking_p_email/>
           <reading/>
           <duration_reading/>
-          <checking_emails/>
-          <duration_checking_emails/>
           <music/>
           <duration_music/>
           <play_game/>
           <duration_play_game/>
           <watching_movie/>
           <duration_watching_movie/>
+          <exercising/>
+          <duration_exercising/>
           <learning_and_educational/>
           <duration_learning_and_educational/>
           <phone/>
           <duration_phone/>
+          <socialise/>
+          <duration_socialise/>
           <talk_to_passengers/>
           <duration_talk_to_passengers/>
           <walking_dog/>
           <duration_walking_dog/>
-          <exercising/>
-          <duration_exercising/>
           <sleeping/>
           <duration_sleeping/>
+          <eating/>
+          <duration_eating/>
+          <checking_emails/>
+          <duration_checking_emails/>
+          <working_main_trip/>
+          <duration_working_main_trip/>
+          <working_other_trip/>
+          <duration_working_other_trip/>
+          <caring/>
+          <duration_caring/>
           <no_activity/>
           <duration_no_activity/>
           <other/>
@@ -39,128 +51,176 @@
           <meta>
             <instanceID/>
           </meta>
-        </aLZkiU4mdvBP5dEyMQjmu6>
+        </akemExF7KUNCKeA8aQddrh>
       </instance>
-      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/aLZkiU4mdvBP5dEyMQjmu6/start" type="dateTime"/>
-      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/aLZkiU4mdvBP5dEyMQjmu6/end" type="dateTime"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/social_media" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_social_media" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/social_media  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/reading" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_reading" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/reading  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/checking_emails" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_checking_emails" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/checking_emails  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/music" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_music" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/music  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/play_game" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_play_game" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/play_game  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/watching_movie" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_watching_movie" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/watching_movie  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/learning_and_educational" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_learning_and_educational" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/learning_and_educational  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/phone" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_phone" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/phone  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/talk_to_passengers" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_talk_to_passengers" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/talk_to_passengers  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/walking_dog" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_walking_dog" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/walking_dog  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/exercising" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_exercising" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/exercising  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/sleeping" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_sleeping" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/sleeping  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/no_activity" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_no_activity" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/no_activity  != ''" required="true()" type="int"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/other" required="false()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/activity_other" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/other  != ''" required="true()" type="string"/>
-      <bind nodeset="/aLZkiU4mdvBP5dEyMQjmu6/duration_other" relevant=" /aLZkiU4mdvBP5dEyMQjmu6/other  != ''" required="true()" type="int"/>
-      <bind jr:preload="uid" nodeset="/aLZkiU4mdvBP5dEyMQjmu6/meta/instanceID" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/akemExF7KUNCKeA8aQddrh/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/akemExF7KUNCKeA8aQddrh/end" type="dateTime"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/social_media" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_social_media" relevant=" /akemExF7KUNCKeA8aQddrh/social_media  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/checking_p_email" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_checking_p_email" relevant=" /akemExF7KUNCKeA8aQddrh/checking_p_email  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/reading" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_reading" relevant=" /akemExF7KUNCKeA8aQddrh/reading  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/music" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_music" relevant=" /akemExF7KUNCKeA8aQddrh/music  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/play_game" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_play_game" relevant=" /akemExF7KUNCKeA8aQddrh/play_game  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/watching_movie" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_watching_movie" relevant=" /akemExF7KUNCKeA8aQddrh/watching_movie  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/exercising" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_exercising" relevant=" /akemExF7KUNCKeA8aQddrh/exercising  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/learning_and_educational" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_learning_and_educational" relevant=" /akemExF7KUNCKeA8aQddrh/learning_and_educational  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/phone" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_phone" relevant=" /akemExF7KUNCKeA8aQddrh/phone  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/socialise" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_socialise" relevant=" /akemExF7KUNCKeA8aQddrh/socialise  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/talk_to_passengers" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_talk_to_passengers" relevant=" /akemExF7KUNCKeA8aQddrh/talk_to_passengers  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/walking_dog" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_walking_dog" relevant=" /akemExF7KUNCKeA8aQddrh/walking_dog  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/sleeping" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_sleeping" relevant=" /akemExF7KUNCKeA8aQddrh/sleeping  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/eating" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_eating" relevant=" /akemExF7KUNCKeA8aQddrh/eating  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/checking_emails" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_checking_emails" relevant=" /akemExF7KUNCKeA8aQddrh/checking_emails  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/working_main_trip" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_working_main_trip" relevant=" /akemExF7KUNCKeA8aQddrh/working_main_trip  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/working_other_trip" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_working_other_trip" relevant=" /akemExF7KUNCKeA8aQddrh/working_other_trip  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/caring" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_caring" relevant=" /akemExF7KUNCKeA8aQddrh/caring  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/no_activity" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_no_activity" relevant=" /akemExF7KUNCKeA8aQddrh/no_activity  != ''" required="true()" type="int"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/other" required="false()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/activity_other" relevant=" /akemExF7KUNCKeA8aQddrh/other  != ''" required="true()" type="string"/>
+      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_other" relevant=" /akemExF7KUNCKeA8aQddrh/other  != ''" required="true()" type="int"/>
+      <bind jr:preload="uid" nodeset="/akemExF7KUNCKeA8aQddrh/meta/instanceID" readonly="true()" type="string"/>
     </model>
   </h:head>
   <h:body>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/social_media">
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/social_media">
       <label>Checking social media</label>
     </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_social_media">
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_social_media">
       <label>How long did it take? (In minutes)</label>
     </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/reading">
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/checking_p_email">
+      <label>Checking personal email</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_checking_p_email">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/reading">
       <label>Reading book for personal interest</label>
     </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_reading">
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_reading">
       <label>How long did it take? (In minutes)</label>
     </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/checking_emails">
-      <label>Checking emails related to work/University studies</label>
-    </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_checking_emails">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/music">
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/music">
       <label>Listening to music, podcast, etc.</label>
     </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_music">
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_music">
       <label>How long did it take? (In minutes)</label>
     </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/play_game">
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/play_game">
       <label>Play video games</label>
     </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_play_game">
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_play_game">
       <label>How long did it take? (In minutes)</label>
     </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/watching_movie">
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/watching_movie">
       <label>Watching movies, Netflix, YouTube, etc.</label>
     </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_watching_movie">
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_watching_movie">
       <label>How long did it take? (In minutes)</label>
     </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/learning_and_educational">
-      <label>Learning and educational activities</label>
-    </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_learning_and_educational">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/phone">
-      <label>Talk to someone on the phone</label>
-    </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_phone">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/talk_to_passengers">
-      <label>Talk to other passengers</label>
-    </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_talk_to_passengers">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/walking_dog">
-      <label>Walking the dog</label>
-    </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_walking_dog">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/exercising">
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/exercising">
       <label>Exercising</label>
     </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_exercising">
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_exercising">
       <label>How long did it take? (In minutes)</label>
     </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/sleeping">
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/learning_and_educational">
+      <label>Learning and educational activities</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_learning_and_educational">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/phone">
+      <label>Contact family/ friends on a call/online</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_phone">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/socialise">
+      <label>Socialising with family/ friends in-person</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_socialise">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/talk_to_passengers">
+      <label>Talk to other passengers</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_talk_to_passengers">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/walking_dog">
+      <label>Walking the dog</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_walking_dog">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/sleeping">
       <label>Sleeping</label>
     </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_sleeping">
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_sleeping">
       <label>How long did it take? (In minutes)</label>
     </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/no_activity">
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/eating">
+      <label>Eating/drinking</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_eating">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/checking_emails">
+      <label>Checking emails related to work/University studies</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_checking_emails">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/working_main_trip">
+      <label>Working at main job</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_working_main_trip">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/working_other_trip">
+      <label>Working at other job</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_working_other_trip">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/caring">
+      <label>Caring for own children or adults</label>
+    </trigger>
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_caring">
+      <label>How long did it take? (In minutes)</label>
+    </input>
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/no_activity">
       <label>No activity, just siting and relaxing or thinking</label>
     </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_no_activity">
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_no_activity">
       <label>How long did it take? (In minutes)</label>
     </input>
-    <trigger ref="/aLZkiU4mdvBP5dEyMQjmu6/other">
+    <trigger ref="/akemExF7KUNCKeA8aQddrh/other">
       <label>Other</label>
     </trigger>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/activity_other">
+    <input ref="/akemExF7KUNCKeA8aQddrh/activity_other">
       <label>Please indicate it below:</label>
     </input>
-    <input ref="/aLZkiU4mdvBP5dEyMQjmu6/duration_other">
+    <input ref="/akemExF7KUNCKeA8aQddrh/duration_other">
       <label>How long did it take? (In minutes)</label>
     </input>
   </h:body>
