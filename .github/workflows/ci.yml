@@ -50,7 +50,6 @@ jobs:
           fi
           npm install -g npm@10.9.2
           npm install enketo-transformer
-          npm install libxslt
 
       - name: Run the transformer script
         shell: bash -l {0}
