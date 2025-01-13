@@ -26,12 +26,12 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Setup node and its dependencies
         shell: bash -l {0}
         run: |
-          export NVM_VERSION=0.39.0
+          export NVM_VERSION=0.40.1
           export NODE_VERSION=22.13.0
           export NPM_VERSION=11.0.0
           export NVM_DIR="$HOME/.nvm"
