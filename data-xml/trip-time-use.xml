@@ -4,224 +4,272 @@
     <h:title>Trip Time Use</h:title>
     <model odk:xforms-version="1.0.0">
       <instance>
-        <akemExF7KUNCKeA8aQddrh id="akemExF7KUNCKeA8aQddrh">
+        <aUJugBCNZ7hamAagSLQva8 id="aUJugBCNZ7hamAagSLQva8">
           <start/>
           <end/>
-          <social_media/>
-          <duration_social_media/>
-          <checking_p_email/>
-          <duration_checking_p_email/>
-          <reading/>
-          <duration_reading/>
-          <music/>
-          <duration_music/>
-          <play_game/>
-          <duration_play_game/>
-          <watching_movie/>
-          <duration_watching_movie/>
-          <exercising/>
-          <duration_exercising/>
-          <learning_and_educational/>
-          <duration_learning_and_educational/>
-          <phone/>
-          <duration_phone/>
-          <socialise/>
-          <duration_socialise/>
-          <talk_to_passengers/>
-          <duration_talk_to_passengers/>
-          <walking_dog/>
-          <duration_walking_dog/>
-          <sleeping/>
-          <duration_sleeping/>
-          <eating/>
-          <duration_eating/>
-          <checking_emails/>
-          <duration_checking_emails/>
-          <working_main_trip/>
-          <duration_working_main_trip/>
-          <working_other_trip/>
-          <duration_working_other_trip/>
-          <caring/>
-          <duration_caring/>
-          <no_activity/>
-          <duration_no_activity/>
-          <other/>
-          <activity_other/>
-          <duration_other/>
+          <recreation_and_leisure>
+            <social_media/>
+            <duration_social_media/>
+            <checking_p_email/>
+            <duration_checking_p_email/>
+            <reading/>
+            <duration_reading/>
+            <music/>
+            <duration_music/>
+            <play_game/>
+            <duration_play_game/>
+            <watching_movie/>
+            <duration_watching_movie/>
+            <exercising/>
+            <duration_exercising/>
+          </recreation_and_leisure>
+          <education_activities>
+            <learning_and_educational/>
+            <duration_learning_and_educational/>
+          </education_activities>
+          <social_interaction>
+            <phone/>
+            <duration_phone/>
+            <socialise/>
+            <duration_socialise/>
+            <talk_to_passengers/>
+            <duration_talk_to_passengers/>
+          </social_interaction>
+          <domestic_activities>
+            <walking_dog/>
+            <duration_walking_dog/>
+          </domestic_activities>
+          <personal_care_activities>
+            <sleeping/>
+            <duration_sleeping/>
+            <eating/>
+            <duration_eating/>
+          </personal_care_activities>
+          <employment_related_activities>
+            <checking_emails/>
+            <duration_checking_emails/>
+            <working_main_trip/>
+            <duration_working_main_trip/>
+            <working_other_trip/>
+            <duration_working_other_trip/>
+          </employment_related_activities>
+          <child_care_activities>
+            <caring/>
+            <duration_caring/>
+          </child_care_activities>
+          <other_group>
+            <no_activity/>
+            <duration_no_activity/>
+            <other/>
+            <activity_other/>
+            <duration_other/>
+          </other_group>
           <meta>
             <instanceID/>
           </meta>
-        </akemExF7KUNCKeA8aQddrh>
+        </aUJugBCNZ7hamAagSLQva8>
       </instance>
-      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/akemExF7KUNCKeA8aQddrh/start" type="dateTime"/>
-      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/akemExF7KUNCKeA8aQddrh/end" type="dateTime"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/social_media" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_social_media" relevant=" /akemExF7KUNCKeA8aQddrh/social_media  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/checking_p_email" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_checking_p_email" relevant=" /akemExF7KUNCKeA8aQddrh/checking_p_email  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/reading" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_reading" relevant=" /akemExF7KUNCKeA8aQddrh/reading  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/music" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_music" relevant=" /akemExF7KUNCKeA8aQddrh/music  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/play_game" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_play_game" relevant=" /akemExF7KUNCKeA8aQddrh/play_game  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/watching_movie" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_watching_movie" relevant=" /akemExF7KUNCKeA8aQddrh/watching_movie  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/exercising" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_exercising" relevant=" /akemExF7KUNCKeA8aQddrh/exercising  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/learning_and_educational" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_learning_and_educational" relevant=" /akemExF7KUNCKeA8aQddrh/learning_and_educational  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/phone" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_phone" relevant=" /akemExF7KUNCKeA8aQddrh/phone  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/socialise" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_socialise" relevant=" /akemExF7KUNCKeA8aQddrh/socialise  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/talk_to_passengers" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_talk_to_passengers" relevant=" /akemExF7KUNCKeA8aQddrh/talk_to_passengers  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/walking_dog" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_walking_dog" relevant=" /akemExF7KUNCKeA8aQddrh/walking_dog  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/sleeping" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_sleeping" relevant=" /akemExF7KUNCKeA8aQddrh/sleeping  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/eating" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_eating" relevant=" /akemExF7KUNCKeA8aQddrh/eating  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/checking_emails" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_checking_emails" relevant=" /akemExF7KUNCKeA8aQddrh/checking_emails  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/working_main_trip" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_working_main_trip" relevant=" /akemExF7KUNCKeA8aQddrh/working_main_trip  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/working_other_trip" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_working_other_trip" relevant=" /akemExF7KUNCKeA8aQddrh/working_other_trip  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/caring" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_caring" relevant=" /akemExF7KUNCKeA8aQddrh/caring  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/no_activity" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_no_activity" relevant=" /akemExF7KUNCKeA8aQddrh/no_activity  != ''" required="true()" type="int"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/other" required="false()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/activity_other" relevant=" /akemExF7KUNCKeA8aQddrh/other  != ''" required="true()" type="string"/>
-      <bind nodeset="/akemExF7KUNCKeA8aQddrh/duration_other" relevant=" /akemExF7KUNCKeA8aQddrh/other  != ''" required="true()" type="int"/>
-      <bind jr:preload="uid" nodeset="/akemExF7KUNCKeA8aQddrh/meta/instanceID" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/aUJugBCNZ7hamAagSLQva8/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/aUJugBCNZ7hamAagSLQva8/end" type="dateTime"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure" required="false()"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/social_media" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_social_media" relevant=" /aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/social_media  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/checking_p_email" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_checking_p_email" relevant=" /aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/checking_p_email  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/reading" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_reading" relevant=" /aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/reading  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/music" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_music" relevant=" /aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/music  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/play_game" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_play_game" relevant=" /aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/play_game  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/watching_movie" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_watching_movie" relevant=" /aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/watching_movie  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/exercising" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_exercising" relevant=" /aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/exercising  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/education_activities" required="false()"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/education_activities/learning_and_educational" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/education_activities/duration_learning_and_educational" relevant=" /aUJugBCNZ7hamAagSLQva8/education_activities/learning_and_educational  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/social_interaction" required="false()"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/social_interaction/phone" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/social_interaction/duration_phone" relevant=" /aUJugBCNZ7hamAagSLQva8/social_interaction/phone  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/social_interaction/socialise" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/social_interaction/duration_socialise" relevant=" /aUJugBCNZ7hamAagSLQva8/social_interaction/socialise  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/social_interaction/talk_to_passengers" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/social_interaction/duration_talk_to_passengers" relevant=" /aUJugBCNZ7hamAagSLQva8/social_interaction/talk_to_passengers  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/domestic_activities" required="false()"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/domestic_activities/walking_dog" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/domestic_activities/duration_walking_dog" relevant=" /aUJugBCNZ7hamAagSLQva8/domestic_activities/walking_dog  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/personal_care_activities" required="false()"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/personal_care_activities/sleeping" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/personal_care_activities/duration_sleeping" relevant=" /aUJugBCNZ7hamAagSLQva8/personal_care_activities/sleeping  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/personal_care_activities/eating" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/personal_care_activities/duration_eating" relevant=" /aUJugBCNZ7hamAagSLQva8/personal_care_activities/eating  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/employment_related_activities" required="false()"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/checking_emails" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/duration_checking_emails" relevant=" /aUJugBCNZ7hamAagSLQva8/employment_related_activities/checking_emails  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/working_main_trip" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/duration_working_main_trip" relevant=" /aUJugBCNZ7hamAagSLQva8/employment_related_activities/working_main_trip  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/working_other_trip" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/duration_working_other_trip" relevant=" /aUJugBCNZ7hamAagSLQva8/employment_related_activities/working_other_trip  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/child_care_activities" required="false()"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/child_care_activities/caring" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/child_care_activities/duration_caring" relevant=" /aUJugBCNZ7hamAagSLQva8/child_care_activities/caring  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/other_group" required="false()"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/other_group/no_activity" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/other_group/duration_no_activity" relevant=" /aUJugBCNZ7hamAagSLQva8/other_group/no_activity  != ''" required="true()" type="int"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/other_group/other" required="false()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/other_group/activity_other" relevant=" /aUJugBCNZ7hamAagSLQva8/other_group/other  != ''" required="true()" type="string"/>
+      <bind nodeset="/aUJugBCNZ7hamAagSLQva8/other_group/duration_other" relevant=" /aUJugBCNZ7hamAagSLQva8/other_group/other  != ''" required="true()" type="int"/>
+      <bind jr:preload="uid" nodeset="/aUJugBCNZ7hamAagSLQva8/meta/instanceID" readonly="true()" type="string"/>
     </model>
   </h:head>
   <h:body>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/social_media">
-      <label>Checking social media</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_social_media">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/checking_p_email">
-      <label>Checking personal email</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_checking_p_email">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/reading">
-      <label>Reading book for personal interest</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_reading">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/music">
-      <label>Listening to music, podcast, etc.</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_music">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/play_game">
-      <label>Play video games</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_play_game">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/watching_movie">
-      <label>Watching movies, Netflix, YouTube, etc.</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_watching_movie">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/exercising">
-      <label>Exercising</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_exercising">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/learning_and_educational">
-      <label>Learning and educational activities</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_learning_and_educational">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/phone">
-      <label>Contact family/ friends on a call/online</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_phone">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/socialise">
-      <label>Socialising with family/ friends in-person</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_socialise">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/talk_to_passengers">
-      <label>Talk to other passengers</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_talk_to_passengers">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/walking_dog">
-      <label>Walking the dog</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_walking_dog">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/sleeping">
-      <label>Sleeping</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_sleeping">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/eating">
-      <label>Eating/drinking</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_eating">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/checking_emails">
-      <label>Checking emails related to work/University studies</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_checking_emails">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/working_main_trip">
-      <label>Working at main job</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_working_main_trip">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/working_other_trip">
-      <label>Working at other job</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_working_other_trip">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/caring">
-      <label>Caring for own children or adults</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_caring">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/no_activity">
-      <label>No activity, just siting and relaxing or thinking</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_no_activity">
-      <label>How long did it take? (In minutes)</label>
-    </input>
-    <trigger ref="/akemExF7KUNCKeA8aQddrh/other">
+    <group ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure">
+      <label>Recreation and Leisure</label>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/social_media">
+        <label>Checking social media</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_social_media">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/checking_p_email">
+        <label>Checking personal email</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_checking_p_email">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/reading">
+        <label>Reading book for personal interest</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_reading">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/music">
+        <label>Listening to music, podcast, etc.</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_music">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/play_game">
+        <label>Play video games</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_play_game">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/watching_movie">
+        <label>Watching movies, Netflix, YouTube, etc.</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_watching_movie">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/exercising">
+        <label>Exercising</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/duration_exercising">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+    </group>
+    <group ref="/aUJugBCNZ7hamAagSLQva8/education_activities">
+      <label>Education Activities</label>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/education_activities/learning_and_educational">
+        <label>Learning and educational activities</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/education_activities/duration_learning_and_educational">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+    </group>
+    <group ref="/aUJugBCNZ7hamAagSLQva8/social_interaction">
+      <label>Social Interaction</label>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/social_interaction/phone">
+        <label>Contact family/ friends on a call/online</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/social_interaction/duration_phone">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/social_interaction/socialise">
+        <label>Socialising with family/ friends in-person</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/social_interaction/duration_socialise">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/social_interaction/talk_to_passengers">
+        <label>Talk to other passengers</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/social_interaction/duration_talk_to_passengers">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+    </group>
+    <group ref="/aUJugBCNZ7hamAagSLQva8/domestic_activities">
+      <label>Domestic Activities</label>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/domestic_activities/walking_dog">
+        <label>Walking the dog</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/domestic_activities/duration_walking_dog">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+    </group>
+    <group ref="/aUJugBCNZ7hamAagSLQva8/personal_care_activities">
+      <label>Personal Care Activities</label>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/personal_care_activities/sleeping">
+        <label>Sleeping</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/personal_care_activities/duration_sleeping">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/personal_care_activities/eating">
+        <label>Eating/drinking</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/personal_care_activities/duration_eating">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+    </group>
+    <group ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities">
+      <label>Employment Related Activites</label>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/checking_emails">
+        <label>Checking emails related to work/University studies</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/duration_checking_emails">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/working_main_trip">
+        <label>Working at main job</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/duration_working_main_trip">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/working_other_trip">
+        <label>Working at other job</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/duration_working_other_trip">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+    </group>
+    <group ref="/aUJugBCNZ7hamAagSLQva8/child_care_activities">
+      <label>Child Care Activities</label>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/child_care_activities/caring">
+        <label>Caring for own children or adults</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/child_care_activities/duration_caring">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+    </group>
+    <group ref="/aUJugBCNZ7hamAagSLQva8/other_group">
       <label>Other</label>
-    </trigger>
-    <input ref="/akemExF7KUNCKeA8aQddrh/activity_other">
-      <label>Please indicate it below:</label>
-    </input>
-    <input ref="/akemExF7KUNCKeA8aQddrh/duration_other">
-      <label>How long did it take? (In minutes)</label>
-    </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/other_group/no_activity">
+        <label>No activity, just siting and relaxing or thinking</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/other_group/duration_no_activity">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+      <trigger ref="/aUJugBCNZ7hamAagSLQva8/other_group/other">
+        <label>Other</label>
+      </trigger>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/other_group/activity_other">
+        <label>Please indicate it below:</label>
+      </input>
+      <input ref="/aUJugBCNZ7hamAagSLQva8/other_group/duration_other">
+        <label>How long did it take? (In minutes)</label>
+      </input>
+    </group>
   </h:body>
 </h:html>
