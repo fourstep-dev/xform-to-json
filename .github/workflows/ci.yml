@@ -52,6 +52,7 @@ jobs:
               npm install npm@$NPM_VERSION
           fi
           rm -rf node_modules package-lock.json
+          npm rebuild
           npm install enketo-transformer@4.1
           npm install libxslt
 
