@@ -48,6 +48,7 @@ jobs:
               echo "Invalid npm version, expected $NPM_VERSION, got $CURR_NPM_VERSION"
               npm install npm@$NPM_VERSION
           fi
+          rm -rf node_modules package-lock.json
           npm install -g npm@10.9.2
           npm install enketo-transformer
 
