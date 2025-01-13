@@ -4,9 +4,9 @@ name: transform-xml-to-json
 # events but only for the master branch
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -18,51 +18,51 @@ jobs:
       matrix:
         os: [ubuntu-latest]
         include:
-        - os: ubuntu-latest
-          PLATFORM: Linux-x86_64
+          - os: ubuntu-latest
+            PLATFORM: Linux-x86_64
         # - os: ubuntu-latest
         #   PLATFORM: Linux-x86_64
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
 
-    - name: Setup node and its dependencies
-      shell: bash -l {0}
-      run:  |
-        export NVM_VERSION=0.39.0
-        export NODE_VERSION=18.17.0
-        export NPM_VERSION=8.5.5
-        export NVM_DIR="$HOME/.nvm"
-        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v$NVM_VERSION/install.sh | bash
-        echo "Setting up the variables to run nvm"
-        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-        [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-        echo "Installing the correct node version"
-        nvm install $NODE_VERSION
-        echo "Check the version of npm"
-        CURR_NPM_VERSION=`npm --version`
-        if [ $CURR_NPM_VERSION != $NPM_VERSION ];
-        then
-            echo "Invalid npm version, expected $NPM_VERSION, got $CURR_NPM_VERSION"
-            npm install npm@$NPM_VERSION
-        fi
-        npm install -g npm@6.14
-        npm install enketo-transformer
-        npm install libxslt
+      - name: Setup node and its dependencies
+        shell: bash -l {0}
+        run: |
+          export NVM_VERSION=0.39.0
+          export NODE_VERSION=22.13.0
+          export NPM_VERSION=11.0.0
+          export NVM_DIR="$HOME/.nvm"
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v$NVM_VERSION/install.sh | bash
+          echo "Setting up the variables to run nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+          [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+          echo "Installing the correct node version"
+          nvm install $NODE_VERSION
+          echo "Check the version of npm"
+          CURR_NPM_VERSION=`npm --version`
+          if [ $CURR_NPM_VERSION != $NPM_VERSION ];
+          then
+              echo "Invalid npm version, expected $NPM_VERSION, got $CURR_NPM_VERSION"
+              npm install npm@$NPM_VERSION
+          fi
+          npm install -g npm@11.0.0
+          npm install enketo-transformer
+          npm install libxslt
 
-    - name: Run the transformer script
-      shell: bash -l {0}
-      run:  |
-        node .
-        pwd
-        ls -lha
-    
-    - name: Commit
-      run: |
-        git config --global user.name 'GitHub Action'
-        git config --global user.email 'action@github.com'
-        git add data-json
-        git commit --no-verify -m 'Update data-json' || echo "No changes to commit"
-        git push || echo "No changes to commit"
+      - name: Run the transformer script
+        shell: bash -l {0}
+        run: |
+          node .
+          pwd
+          ls -lha
+
+      - name: Commit
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add data-json
+          git commit --no-verify -m 'Update data-json' || echo "No changes to commit"
+          git push || echo "No changes to commit"
