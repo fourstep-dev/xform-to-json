@@ -17,9 +17,7 @@ console.log('');
 fs.readdirSync(`./${config.inputDir}`, {
   encoding: 'utf8',
   withFileTypes: true,
-}).filter(file => {
-  return file.name.match(/.xml$/);
-}).forEach(file => {
+}).filter(file => file.name.match(/.xml$/)).forEach(file => {
   const filename = file.name.substring(0, file.name.length - 4);
   const inputPath = `${config.inputDir}/${file.name}`;
   const outputPath = `${config.outputDir}/${filename}.json`;
@@ -27,7 +25,7 @@ fs.readdirSync(`./${config.inputDir}`, {
   transformer.transform({
     xform: fs.readFileSync(inputPath),
     preprocess: doc => doc,
-  }).then(function(result){
+  }).then(result => {
     fs.writeFileSync(outputPath, JSON.stringify(result));
     console.log(`Successfully saved "${outputPath}"`);
   });
