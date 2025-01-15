@@ -808,7 +808,7 @@
       <bind nodeset="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/data_h_exercising/start_time_h_exercising" required="true()" type="time"/>
       <bind nodeset="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/data_h_exercising/duration_h_exercising" required="true()" type="int"/>
       <bind nodeset="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/h_getting_ready" required="false()" type="string"/>
-      <bind nodeset="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/data_h_getting_ready" relevant=" /am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/h_getting_ready  != ''"/>
+      <bind nodeset="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/data_h_getting_ready" relevant=" /am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/h_getting_ready  != ''" required="false()"/>
       <bind nodeset="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/data_h_getting_ready/start_time_h_getting_ready" required="true()" type="time"/>
       <bind nodeset="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/data_h_getting_ready/duration_h_getting_ready" required="true()" type="int"/>
       <bind nodeset="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/h_other_personal_care" required="false()" type="string"/>
@@ -1134,7 +1134,7 @@
     </model>
   </h:head>
   <h:body>
-    <select1 appearance="horizontal-compact" ref="/am3CGdWmfAxZbvdizoi6iQ/place">
+    <select1 appearance="minimal" ref="/am3CGdWmfAxZbvdizoi6iQ/place">
       <label>Where was this place?</label>
       <item>
         <label>Home</label>
@@ -1153,9 +1153,9 @@
         <value>not_valid</value>
       </item>
     </select1>
-    <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home">
+    <group ref="/am3CGdWmfAxZbvdizoi6iQ/home">
       <label>Please select the activities you have done at home:</label>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities">
         <label>Personal Care Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_personal_care_activities/h_eating">
           <label>Eating/drinking</label>
@@ -1256,7 +1256,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_domestic_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_domestic_activities">
         <label>Domestic Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_domestic_activities/h_laundry">
           <label>Laundry and clothes care</label>
@@ -1357,7 +1357,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_child_care_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_child_care_activities">
         <label>Child Care Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_child_care_activities/h_children_adult_caring">
           <label>Caring for own children or adults</label>
@@ -1374,7 +1374,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_voluntary_care_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_voluntary_care_activities">
         <label>Voluntary Work and Care Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_voluntary_care_activities/h_voluntary_work">
           <label>Voluntary work/caring for other children or adults activities</label>
@@ -1391,7 +1391,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_social_interaction">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_social_interaction">
         <label>Social Interaction</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_social_interaction/h_contact">
           <label>Contact family/ friends on a call/online</label>
@@ -1422,7 +1422,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_recreation_and_leisure">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_recreation_and_leisure">
         <label>Recreation and Leisure</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_recreation_and_leisure/h_watching_tv">
           <label>Watching TV, Netflix, YouTube, etc.</label>
@@ -1551,7 +1551,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_education_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_education_activities">
         <label>Education Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_education_activities/h_online_edu">
           <label>Online attendance at educational courses</label>
@@ -1582,7 +1582,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_employment_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_employment_activities">
         <label>Employment Related Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_employment_activities/h_wfh_main_job">
           <label>Work from home - main job</label>
@@ -1627,7 +1627,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_other_group">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_other_group">
         <label>Other</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/home/home_other_group/h_no_activity">
           <label>No activity, just relaxing or thinking</label>
@@ -1662,9 +1662,9 @@
         </group>
       </group>
     </group>
-    <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/work">
+    <group ref="/am3CGdWmfAxZbvdizoi6iQ/work">
       <label>Please select the activities you have done at work:</label>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_employment_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_employment_activities">
         <label>Employment Related Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_employment_activities/w_main_job">
           <label>Working at main job</label>
@@ -1695,7 +1695,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_education_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_education_activities">
         <label>Education Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_education_activities/w_edu">
           <label>Attendance at educational courses</label>
@@ -1712,7 +1712,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_personal_care_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_personal_care_activities">
         <label>Personal Care Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_personal_care_activities/w_eating">
           <label>Eating/drinking</label>
@@ -1729,7 +1729,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_social_interaction">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_social_interaction">
         <label>Social Interaction</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_social_interaction/w_socialising">
           <label>Socialising</label>
@@ -1746,7 +1746,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_other_group">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_other_group">
         <label>Other</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/work/work_other_group/w_no_activity">
           <label>No activity, just relaxing or thinking</label>
@@ -1781,9 +1781,9 @@
         </group>
       </group>
     </group>
-    <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other">
+    <group ref="/am3CGdWmfAxZbvdizoi6iQ/other">
       <label>Please select the activities you have done at this place:</label>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_personal_care_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_personal_care_activities">
         <label>Personal Care Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_personal_care_activities/o_eating">
           <label>Eating/drinking</label>
@@ -1870,7 +1870,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_domestic_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_domestic_activities">
         <label>Domestic Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_domestic_activities/o_laundry">
           <label>Laundry and clothes care</label>
@@ -1985,7 +1985,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_child_care_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_child_care_activities">
         <label>Child Care Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_child_care_activities/o_children_adult_caring">
           <label>Caring for own children or adults</label>
@@ -2002,7 +2002,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_voluntary_care_activity">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_voluntary_care_activity">
         <label>Voluntary Work and Care Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_voluntary_care_activity/o_voluntary_work">
           <label>Voluntary work/caring for other children or adults activities</label>
@@ -2019,7 +2019,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_social_interaction">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_social_interaction">
         <label>Social Interaction</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_social_interaction/o_contact">
           <label>Contact family/ friends on a call/online</label>
@@ -2050,7 +2050,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_recreation_and_leisure">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_recreation_and_leisure">
         <label>Recreation and Leisure</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_recreation_and_leisure/o_watching_tv">
           <label>Watching TV, Netflix, YouTube, etc.</label>
@@ -2235,7 +2235,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_education_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_education_activities">
         <label>Education Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_education_activities/o_online_edu">
           <label>Online attendance at educational courses</label>
@@ -2266,7 +2266,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_employment_activities">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_employment_activities">
         <label>Employment Related Activities</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_employment_activities/o_main_job">
           <label>Work- main job</label>
@@ -2311,7 +2311,7 @@
           </repeat>
         </group>
       </group>
-      <group appearance="field-list" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_other_group">
+      <group appearance="compact" ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_other_group">
         <label>Other</label>
         <trigger ref="/am3CGdWmfAxZbvdizoi6iQ/other/other_other_group/o_no_activity">
           <label>No activity, just siting and relaxing or thinking</label>

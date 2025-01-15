@@ -124,7 +124,7 @@
     </model>
   </h:head>
   <h:body>
-    <group ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure">
+    <group appearance="compact" ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure">
       <label>Recreation and Leisure</label>
       <trigger ref="/aUJugBCNZ7hamAagSLQva8/recreation_and_leisure/social_media">
         <label>Checking social media</label>
@@ -169,7 +169,7 @@
         <label>How long did it take? (In minutes)</label>
       </input>
     </group>
-    <group ref="/aUJugBCNZ7hamAagSLQva8/education_activities">
+    <group appearance="compact" ref="/aUJugBCNZ7hamAagSLQva8/education_activities">
       <label>Education Activities</label>
       <trigger ref="/aUJugBCNZ7hamAagSLQva8/education_activities/learning_and_educational">
         <label>Learning and educational activities</label>
@@ -178,7 +178,7 @@
         <label>How long did it take? (In minutes)</label>
       </input>
     </group>
-    <group ref="/aUJugBCNZ7hamAagSLQva8/social_interaction">
+    <group appearance="compact" ref="/aUJugBCNZ7hamAagSLQva8/social_interaction">
       <label>Social Interaction</label>
       <trigger ref="/aUJugBCNZ7hamAagSLQva8/social_interaction/phone">
         <label>Contact family/ friends on a call/online</label>
@@ -199,7 +199,7 @@
         <label>How long did it take? (In minutes)</label>
       </input>
     </group>
-    <group ref="/aUJugBCNZ7hamAagSLQva8/domestic_activities">
+    <group appearance="compact" ref="/aUJugBCNZ7hamAagSLQva8/domestic_activities">
       <label>Domestic Activities</label>
       <trigger ref="/aUJugBCNZ7hamAagSLQva8/domestic_activities/walking_dog">
         <label>Walking the dog</label>
@@ -208,7 +208,7 @@
         <label>How long did it take? (In minutes)</label>
       </input>
     </group>
-    <group ref="/aUJugBCNZ7hamAagSLQva8/personal_care_activities">
+    <group appearance="compact" ref="/aUJugBCNZ7hamAagSLQva8/personal_care_activities">
       <label>Personal Care Activities</label>
       <trigger ref="/aUJugBCNZ7hamAagSLQva8/personal_care_activities/sleeping">
         <label>Sleeping</label>
@@ -223,7 +223,7 @@
         <label>How long did it take? (In minutes)</label>
       </input>
     </group>
-    <group ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities">
+    <group appearance="compact" ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities">
       <label>Employment Related Activites</label>
       <trigger ref="/aUJugBCNZ7hamAagSLQva8/employment_related_activities/checking_emails">
         <label>Checking emails related to work/University studies</label>
@@ -244,7 +244,7 @@
         <label>How long did it take? (In minutes)</label>
       </input>
     </group>
-    <group ref="/aUJugBCNZ7hamAagSLQva8/child_care_activities">
+    <group appearance="compact" ref="/aUJugBCNZ7hamAagSLQva8/child_care_activities">
       <label>Child Care Activities</label>
       <trigger ref="/aUJugBCNZ7hamAagSLQva8/child_care_activities/caring">
         <label>Caring for own children or adults</label>
@@ -253,7 +253,7 @@
         <label>How long did it take? (In minutes)</label>
       </input>
     </group>
-    <group ref="/aUJugBCNZ7hamAagSLQva8/other_group">
+    <group appearance="compact" ref="/aUJugBCNZ7hamAagSLQva8/other_group">
       <label>Other</label>
       <trigger ref="/aUJugBCNZ7hamAagSLQva8/other_group/no_activity">
         <label>No activity, just siting and relaxing or thinking</label>
